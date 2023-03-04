@@ -1,0 +1,39 @@
+{
+  "name": "mygraceblog",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev_web": "vite --mode dev",
+    "build_web": "vite build --mode pro",
+    "preview_web": "vite preview --mode dev"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.43.2",
+    "axios": "^1.3.4",
+    "puppeteer": "^19.7.2",
+    "vue": "^3.2.45",
+    "@element-plus/icons-vue": "^2.0.10",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.2.28",
+    "global": "^4.4.0",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0",
+    "vue-router": "^4.1.6",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  }
+}
